@@ -2,7 +2,7 @@ name: Bundle and Publish Sources
 on: 
   push:
     branches:
-      - '0.8'
+      - '0.9'
 jobs:
   build:
     name: Bundle and Publish Sources

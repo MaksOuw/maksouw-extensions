@@ -1,0 +1,36 @@
+{
+  "name": "maksouw-0.9",
+  "version": "0.9.0",
+  "repositoryName": "MaksOuw sources",
+  "description": "MaksOuw sources for Paperback 0.9",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "bundle": "paperback-cli bundle",
+    "bundle:debug": "paperback-cli bundle --debug --tests",
+    "serve": "paperback-cli serve",
+    "watch": "paperback-cli serve --watch",
+    "test": "paperback-cli test",
+    "logcat": "paperback-cli logcat --ip=127.0.0.1",
+    "lint": "eslint . --fix",
+    "format": "prettier --write ."
+  },
+  "author": "MaksOuw",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "@paperback/types": "1.0.0-alpha.91",
+    "cheerio": "1.0.0",
+    "html-entities": "^2.5.2"
+  },
+  "devDependencies": {
+    "@paperback/toolchain": "1.0.0-alpha.91",
+    "@types/node": "24.x",
+    "typescript": "^5.7.0",
+    "typescript-eslint": "^8.19.0",
+    "eslint": "^9.17.0",
+    "prettier": "^3.4.0"
+  }
+}

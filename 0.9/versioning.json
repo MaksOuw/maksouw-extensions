@@ -1,0 +1,35 @@
+{
+  "buildTime": "2026-08-07T20:19:21.123Z",
+  "builtWith": {
+    "toolchain": "1.0.0-alpha.91",
+    "types": "1.0.0-alpha.91"
+  },
+  "repository": {
+    "name": "maksouw-0.9",
+    "description": "MaksOuw sources for Paperback 0.9"
+  },
+  "sources": [
+    {
+      "version": "2.0.0",
+      "name": "PoseidonScans",
+      "icon": "icon.png",
+      "description": "Extension that pulls webtoons from Poseidon-Scans",
+      "contentRating": "MATURE",
+      "language": "fr",
+      "developers": [
+        {
+          "name": "MaksOuw",
+          "github": "MaksOuw"
+        }
+      ],
+      "badges": [],
+      "capabilities": [
+        1,
+        64,
+        4,
+        16
+      ],
+      "id": "PoseidonScans"
+    }
+  ]
+}

@@ -85,6 +85,8 @@ class PoseidonScansExtension
       mangaId,
       mangaInfo: {
         thumbnailUrl: this.getImageSrc($('img.object-cover')).replace('.webp', '.png') ?? '',
+        bannerUrl: this.getImageSrc($('img.object-cover')).replace('.webp', '.png') ?? '',
+        artworkUrls: [this.getImageSrc($('img.object-cover')).replace('.webp', '.png') ?? ''],
         synopsis: decodeHTMLEntity($('p.text-gray-300').text().trim()),
         primaryTitle: decodeHTMLEntity($('h1.text-4xl').text().trim()),
         secondaryTitles: [],

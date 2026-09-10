@@ -184,7 +184,7 @@ class PoseidonScansExtension
     })
 
     for (const page of pagesWithId) {
-      pages.push(page.img)
+      pages.push(DOMAIN + page.img)
     }
 
     return {

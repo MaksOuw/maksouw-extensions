@@ -2,7 +2,7 @@ import type { ExtensionInfo } from '@paperback/types'
 import { ContentRating, SourceIntents } from '@paperback/types'
 
 export default {
-  version: '2.0.1',
+  version: '2.0.2',
   name: 'PoseidonScans',
   icon: 'icon.png',
   description: 'Extension that pulls webtoons from Poseidon-Scans',

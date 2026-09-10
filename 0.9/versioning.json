@@ -1,5 +1,5 @@
 {
-  "buildTime": "2026-08-12T09:13:51.827Z",
+  "buildTime": "2026-09-10T21:49:34.647Z",
   "builtWith": {
     "toolchain": "1.0.0-alpha.91",
     "types": "1.0.0-alpha.91"
@@ -10,7 +10,7 @@
   },
   "sources": [
     {
-      "version": "2.0.1",
+      "version": "2.0.2",
       "name": "PoseidonScans",
       "icon": "icon.png",
       "description": "Extension that pulls webtoons from Poseidon-Scans",
